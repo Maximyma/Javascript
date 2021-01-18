@@ -6,6 +6,10 @@ if (name === owner) {
  else { 
   return 'Hello guest';
 }
+another option
+function greet (name, owner) {
+return 'Hello' + (name === owner ? ' boss' : ' guest');
+}
   }
   https://www.codewars.com/kata/grasshopper-messi-goals-function/train/javascript
   function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
